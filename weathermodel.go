@@ -55,7 +55,7 @@ type Weather struct {
 			PrecipIntensity            float64 `json:"precipIntensity"`
 			PrecipIntensityMax         float64 `json:"precipIntensityMax"`
 			PrecipProbability          float64 `json:"precipProbability"`
-			PrecipIntensity             float64 `json:"temperatureMin"`
+			TemperatureMin             float64 `json:"temperatureMin"`
 			TemperatureMinTime         int     `json:"temperatureMinTime"`
 			TemperatureMax             float64 `json:"temperatureMax"`
 			TemperatureMaxTime         int     `json:"temperatureMaxTime"`

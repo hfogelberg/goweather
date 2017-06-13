@@ -1,0 +1,32 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg width='250px' height='175px' version='1.1' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<marker id='ArrowFillLeft' viewBox='0 0 10 10' refX='5' refY='5'  
+			 markerUnits='strokeWidth' markerWidth='8' markerHeight='6' orient='auto'>
+			 <path d='M 10 0 L 0 5 L 10 10 z' />
+		</marker>
+		<marker id='ArrowFillRight' viewBox='0 0 10 10' refX='8' refY='5'  
+			 markerUnits='strokeWidth' markerWidth='8' markerHeight='6' orient='auto'>
+			 <path d='M 0 0 L 10 5 L 0 10 z' />
+		</marker>
+		<marker id='ArrowStrokeRight' viewBox='0 0 10 10' refX='8' refY='5'  
+			 markerUnits='strokeWidth' markerWidth='8' markerHeight='6' orient='auto'>
+			 <path d='M 0 0 L 10 5 L 0 10 L -1 8.8 L 7 5 L -1 1.2 z' />
+		</marker>
+		<marker id='ArrowStrokeLeft' viewBox='0 0 10 10' refX='2' refY='5'  
+			 markerUnits='strokeWidth' markerWidth='8' markerHeight='6' orient='auto'>
+			 <path d='M 10 0 L 11 1.2 L 3 5 L 11 8.8 L 10 10 L 0 5 z' />
+		</marker>
+	</defs>
+	<path d='M99.999996,121.622772 C99.999996,104.157997 114.157997,89.999996 131.622772,89.999996 C149.087547,89.999996 163.245548,104.157997 163.245548,121.622772 C163.245548,139.087547 149.087547,153.245548 131.622772,153.245548 C114.157997,153.245548 99.999996,139.087547 99.999996,121.622772' fill='#FFDC55' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='1.000000' stroke-opacity='1.000000' />
+	<path d='M100.000002,160.000000 C81.944561,173.081478 72.611961,195.180195 56.385740,209.603516' fill='none' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='0.000000' stroke-opacity='1.000000' />
+	<path d='M90.000000,130.000006 C73.074654,138.004356 48.715221,144.129847 32.675835,156.604914' fill='none' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='0.000000' stroke-opacity='1.000000' />
+	<path d='M130.000004,170.000004 C128.334340,187.452106 130.050690,204.643539 131.699551,221.956577 C132.014590,225.264481 132.895009,228.396896 132.895009,231.719479' fill='none' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='0.000000' stroke-opacity='1.000000' />
+	<path d='M170.000000,160.000000 C183.001336,175.057663 191.919180,195.704796 205.817902,209.603516' fill='none' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='0.000000' stroke-opacity='1.000000' />
+	<path d='M180.000004,130.000004 C191.880258,133.005208 233.372253,130.633153 245.068752,136.481380' fill='none' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='0.000000' stroke-opacity='1.000000' />
+	<path d='M180.000004,100.000002 C196.773113,84.682200 218.775703,79.335251 238.493740,70.133497' fill='none' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='0.000000' stroke-opacity='1.000000' />
+	<path d='M90.000000,100.000001 C70.206875,101.910502 55.580746,79.272759 36.660690,76.907756' fill='none' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='0.000000' stroke-opacity='1.000000' />
+	<path d='M109.999996,80.000002 C106.127953,61.144918 93.077276,46.306616 86.471409,28.690977' fill='none' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='0.000000' stroke-opacity='1.000000' />
+	<path d='M149.999992,70.000000 C158.596248,53.901016 164.785744,36.039192 172.942818,19.725044' fill='none' stroke='#FFDC55' stroke-width='6.000000' stroke-linejoin='round' fill-opacity='0.000000' stroke-opacity='1.000000' />
+</svg>
