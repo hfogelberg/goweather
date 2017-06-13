@@ -1,0 +1,24 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GoWeather</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/public/styles/reset.css">
+    <link rel="stylesheet" href="/public/styles/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="/"><h1>GoWeather</h1></a></li>
+        <li><a href="/about">About</a></a>
+      </ul>
+    </header>
+    <div class="container">
+    {{template "content" .}}
+    </div>
+  </body>
+</html>
+{{end}}
