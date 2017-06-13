@@ -1,5 +1,40 @@
 {{define "content"}}
   <div class="overview">
     <h2>Overview</h2>
+
+    {{.Currently}}
+
+    <hr>
+
+    <h3>Hourly</h3>
+    {{.Hourly.Summary}}
+
+    <hr>
+    {{range .Hourly.Data}}
+      <div class="hourly">
+        {{.Summary}}
+        {{.Time}}
+        {{.Temperature}}°C
+        {{.PrecipIntensity}} mm
+        {{.Humidity}}%
+        {{.WindBearing}}°, {{.WindSpeed}} m/s
+      </div>
+      <br>
+    {{end}}
+    <hr>
+    <h3>Daily</h3>
+    {{.Daily.Summary}}
+
+    <hr>
+    {{range .Daily.Data}}
+      <div class="daily">
+        {{.Summary}}
+        {{.Time}}
+        {{.PrecipIntensity}}
+        {{.TemperatureMin}} °C - {{.TemperatureMax}}
+      </div>
+      <br>
+    {{end}}
+    <hr>
   </div>
 {{end}}

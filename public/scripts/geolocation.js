@@ -7,7 +7,7 @@ function getLocation() {
         var lon = position.coords.longitude;
         console.log("lat: " + lat);
         console.log("Lon: " + lon);
-        handleGeoDat(lat, lon);
+        handleGeoData(lat, lon);
 
       });
     } else { 
@@ -15,7 +15,7 @@ function getLocation() {
   }
 }
 
-function handleGeoDat(lat, lon) {
+function handleGeoData(lat, lon) {
   var url = "/forecast/"+lat+"/"+lon;
   window.location.replace(url);
 }
